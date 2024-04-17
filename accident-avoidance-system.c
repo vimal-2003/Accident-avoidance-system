@@ -6,7 +6,6 @@ void setup() {
 
   Serial.begin(9600);  // Initialize Serial communication
 }
-
 void loop() {
   int irValue = digitalRead(IR_SENSOR_PIN);
   int consecutiveDetections = 0;
