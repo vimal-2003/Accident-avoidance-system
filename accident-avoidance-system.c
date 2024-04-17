@@ -18,7 +18,6 @@ void loop() {
     } else {
       consecutiveDetections = 0;
     }
-
     // If continuously detected for 3 seconds, activate the buzzer and print the sum
     if (consecutiveDetections >= 30) {
       digitalWrite(BUZZER_PIN, HIGH);  // Turn on the buzzer
