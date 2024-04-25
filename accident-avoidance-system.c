@@ -10,7 +10,7 @@ void loop() {
   int irValue = digitalRead(IR_SENSOR_PIN);
   int consecutiveDetections = 0;
 
-  // Check for continuous detection for 3 seconds
+ 
   for (int i = 0; i < 3000 / 100; i++) {
     delay(100);
     if (digitalRead(IR_SENSOR_PIN) == HIGH) {
