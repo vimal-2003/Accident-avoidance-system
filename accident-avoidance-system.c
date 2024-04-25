@@ -25,7 +25,6 @@ void loop() {
       digitalWrite(BUZZER_PIN, LOW);   // Turn off the buzzer
       delay(1000);  // Buzzer OFF time (adjust as needed)
 
-      // Print the sum of consecutive detections to the Serial Monitor
       Serial.print("Sum of consecutive detections: ");
       Serial.println(consecutiveDetections);
 
