@@ -23,7 +23,7 @@ void loop() {
       digitalWrite(BUZZER_PIN, HIGH); 
       delay(1000); 
       digitalWrite(BUZZER_PIN, LOW);  
-      delay(1000);  // Buzzer OFF time (adjust as needed)
+      delay(1000);  
 
       Serial.print("Sum of consecutive detections: ");
       Serial.println(consecutiveDetections);
