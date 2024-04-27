@@ -20,7 +20,7 @@ void loop() {
     }
    
     if (consecutiveDetections >= 30) {
-      digitalWrite(BUZZER_PIN, HIGH);  // Turn on the buzzer
+      digitalWrite(BUZZER_PIN, HIGH); 
       delay(1000);  // Buzzer ON time (adjust as needed)
       digitalWrite(BUZZER_PIN, LOW);   // Turn off the buzzer
       delay(1000);  // Buzzer OFF time (adjust as needed)
