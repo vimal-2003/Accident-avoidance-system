@@ -22,7 +22,7 @@ void loop() {
     if (consecutiveDetections >= 30) {
       digitalWrite(BUZZER_PIN, HIGH); 
       delay(1000); 
-      digitalWrite(BUZZER_PIN, LOW);   // Turn off the buzzer
+      digitalWrite(BUZZER_PIN, LOW);  
       delay(1000);  // Buzzer OFF time (adjust as needed)
 
       Serial.print("Sum of consecutive detections: ");
