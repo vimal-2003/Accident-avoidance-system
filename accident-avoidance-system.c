@@ -3,7 +3,6 @@
 void setup() {
   pinMode(IR_SENSOR_PIN, INPUT);
   pinMode(BUZZER_PIN, OUTPUT);
-
   Serial.begin(9600);  
 }
 void loop() {
