@@ -8,7 +8,6 @@ void setup() {
 void loop() {
   int irValue = digitalRead(IR_SENSOR_PIN);
   int consecutiveDetections = 0;
-
  
   for (int i = 0; i < 3000 / 100; i++) {
     delay(100);
