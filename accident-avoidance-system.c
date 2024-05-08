@@ -14,6 +14,7 @@ void loop() {
       consecutiveDetections++;
     } else
     {
+      
       consecutiveDetections = 0;
     }
     if (consecutiveDetections >= 30) {
