@@ -20,8 +20,7 @@ void loop() {
       digitalWrite(BUZZER_PIN, HIGH); 
       delay(1000); 
       digitalWrite(BUZZER_PIN, LOW);  
-      delay(1000);  
-      
+      delay(1000);
       Serial.print("Sum of consecutive detections: ");
       Serial.println(consecutiveDetections);
       break;
