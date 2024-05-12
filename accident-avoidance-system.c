@@ -5,8 +5,7 @@ void setup() {
   pinMode(BUZZER_PIN, OUTPUT);
   Serial.begin(9600);  
 }
-void loop()
-{
+void loop() {
   int irValue = digitalRead(IR_SENSOR_PIN);
   int consecutiveDetections = 0;
   for (int i = 0; i < 3000 / 100; i++) {
