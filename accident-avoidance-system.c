@@ -13,7 +13,8 @@ void loop() {
     delay(100);  
     if (digitalRead(IR_SENSOR_PIN) == HIGH) {
       consecutiveDetections++;
-    } else
+    }
+    else
     {
       consecutiveDetections = 0;
     }
