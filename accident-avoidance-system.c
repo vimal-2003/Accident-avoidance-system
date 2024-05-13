@@ -17,7 +17,6 @@ void loop() {
     {
       consecutiveDetections = 0;
     }
-
     if (consecutiveDetections >= 30) {
       digitalWrite(BUZZER_PIN, HIGH); 
       delay(1000); 
