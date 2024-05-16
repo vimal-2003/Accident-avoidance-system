@@ -1,5 +1,6 @@
 #define IR_SENSOR_PIN 2
 #define BUZZER_PIN 3
+
 void setup() {
   pinMode(IR_SENSOR_PIN, INPUT);
   pinMode(BUZZER_PIN, OUTPUT);
