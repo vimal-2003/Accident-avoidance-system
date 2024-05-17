@@ -30,5 +30,6 @@ void loop() {
       Serial.println(consecutiveDetections);
       break;   
     }
+    
   }
 }
