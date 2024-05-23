@@ -25,7 +25,6 @@ void loop() {
       Serial.print("Sum of consecutive detections: ");
       Serial.println(consecutiveDetections);
       break;   
-    }
-    
+    }   
   }
 }
